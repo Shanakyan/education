@@ -1,0 +1,103 @@
+.cat-img {
+    width: 500px;
+    height: 500px;
+}
+
+.title {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    color: rgb(16, 16, 82);
+}
+
+.cat-block {
+    display: flex;
+}
+
+.info {
+    display: block;
+}
+
+.info-title {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    color: rgba(16, 16, 82);
+
+}
+
+.info-name {
+    font-family: 'Jost', sans-serif;
+    padding-left: 30px;
+    color: rgb(16, 16, 82);
+
+}
+
+.info-list {
+    color: rgb(92, 92, 92, 0.8);
+}
+
+#frst-letter {
+    padding-left: 10px;
+    font-size: large;
+    color: rgb(16, 16, 82);
+
+}
+
+.cat-link {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.cat-link:hover {
+    color: rgb(96, 17, 24);
+}
+.cat-link:active{
+    color: rgb(194, 34, 6);
+}
+
+/* ------------Forms------------- */
+
+.form-name {
+    background: rgb(227, 234, 238);
+    width: 25%;
+    
+}
+.form-name:hover {
+    animation-duration: 3s;
+    animation-name: upp;
+}
+
+.form-name-title {
+    font-size: large;
+    color: rgb(16, 16, 82);
+}
+
+.form-name-item {
+    padding: 10px;
+}
+
+.form-name-input {
+    margin-left: 15px;
+   
+}
+.circle {
+    width:50px;
+    height:50px;
+    background-color:black;
+    border-radius:50%;
+    
+    animation-duration: 3s;
+    animation-name: movie;
+    
+    }
+
+    
+    @keyframes movie {
+        from {margin-left:0;} 
+        to {margin-left:500px;} 
+        }
+    
+        @keyframes upp {
+        from {width:25%;} 
+        to {width:35%;} 
+        }

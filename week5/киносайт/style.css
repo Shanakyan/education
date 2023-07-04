@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+
+    flex-direction: column;
+}
+.section {
+    
+    background-color: beige;
+}
+
+.wrapp {
+    min-width: 75%;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: first baseline;
+
+
+}
+
+
+.photo {
+    /* min-height: 100%; */
+    width: 200px;
+    height: 200px;
+    /* background-size: cover; */
+    margin: 5px;
+    align-self: stretch;
+}
+.img {
+    object-fit: contain;
+}
+
+.photo:hover {
+    transform: scale(0.9);
+
+}

@@ -1,0 +1,62 @@
+.cat-img {
+    width: 500px;
+    height: 500px;
+   
+
+}
+
+.title {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    color: rgb(16, 16, 82);
+}
+
+.cat-block {
+    display: flex;
+}
+.info{
+    display: block;
+}
+.info-title{
+    text-align: center;
+    color: rgba(16, 16, 82);
+    
+}
+.info-name{
+    font-family: 'Jost', sans-serif;
+    padding-left: 30px;
+    color: rgb(16, 16, 82, );
+
+}
+.info-list{
+    color: rgb(92, 92, 92, 0.8);
+}
+#frst-letter{
+    padding-left: 10px;
+    font-size: large;
+    color: rgb(16, 16, 82);
+   
+}
+.cat-link{
+    text-decoration: none;
+    
+}
+.cat-link:hover{
+    color: blue;
+}
+/* ------------Forms------------- */
+
+.form-name{
+    background: rgb(227, 234, 238);
+    width: 25%;
+}
+.form-name-title{
+    font-size: large;
+    color:rgb(16, 16, 82) ;
+}
+.form-name-item{
+    padding: 10px;
+}
+.form-name-input{
+    margin-left: 15px;
+}
