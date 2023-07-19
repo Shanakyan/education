@@ -1,0 +1,43 @@
+// .card {
+
+// }
+// .card-img-top {
+
+// .header {
+
+// }
+// .card-title {
+
+// }
+
+@mixin flex-row-spase   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.card {
+    // display: block;
+    @include flex-row-spase;
+    // margin: 0;
+    // padding: 0;
+    // list-style: none;
+    
+    &-img-top {
+        @include flex-row-spase;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+    }
+    &-title {
+        @include flex-row-spase;
+        
+        &_active {
+            // .card-title_active 
+            display: block;
+            
+        }
+        
+        
+    }
+}
